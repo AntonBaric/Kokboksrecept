@@ -6,6 +6,8 @@ public class Database {
     Connection conn = null;
     Database() {
         ConnectToDatabase();
+
+
     }
     private void ConnectToDatabase() {
         try {
@@ -14,5 +16,8 @@ public class Database {
             throwables.printStackTrace();
         }
     }
+
+    
+
 
 }
